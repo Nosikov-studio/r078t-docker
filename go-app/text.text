@@ -1,0 +1,7 @@
+По мотивам урока
+https://www.youtube.com/watch?v=Z_cUS7kCAsE
+
+СБОРКА:
+docker build . go-hello:1.0
+ЗАПУСК:
+docker run -d -p 5555:8080 go-hello:1.0
